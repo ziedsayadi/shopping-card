@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Section-one-nav-bar*/
+
+.dropdown{
+bottom: 15px;
+position: relative;
+}
+#navbarDropdown{
+    color: grey;
+}
+#navbarDropdown:hover{
+color: white;
+}
+/*Section-2-carrosel*/
+#carouselExampleControls{
+    width: 97.8%;
+    margin:auto ;
+}
+/*section -3- chart */
+.container-2-fluid{
+    width: 97.8%;
+    margin: auto;
+    border: 1px solid #D3D3CE;
+    background-color: #D3D3CE;
+}
+.price-calculator{
+    margin: 40px 0px 0px 60px;
+    display: flex;
+    padding-left: 15px;
+    border: grey;
+    background-color: grey;
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    color: white;
+    border: 1px solid grey;
+}
+.price-title{
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+#price-counter{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.chart-im{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+   color: white;    
+}
+
+.Heart{
+color :red;
+
+}
+.shop-ingredient{
+    display: flex;
+    width: 90%;
+    margin-left: 60px;
+}
+.chose{
+    margin-top: 70px ;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.fa-heart {
+    color: grey;
+}
+.option-shop{
+    height: 150px;
+    width: 150px;
+}
+.option-name{
+    padding-top: 55px;
+    font-size: 30px;
+
+}
+input{
+    margin-top: 70px ;
+    width: 50px;
+    height: 30px;
+}
+.price-option{
+    margin-top: 70px ;
+}
+.one{
+    
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: white;
+}
+.two{
+    
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: white;
+
+}
+.three{
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+.price-value{
+    justify-content: space-evenly;
+    margin-top: 50px;
+    display: flex;
+    height: 50px;
+    width: 120px;
+}
+.price-number{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.price-uncrease{
+    margin-top: 5px;
+    border: transparent;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+}
+.price-uncrease i{
+
+    color: rgb(105, 177, 236);
+}
+.price-decrease{
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+    border: transparent;
+    background-color: transparent;
+}
+.price-decrease i{
+    color: rgb(236, 125, 125);
+}
